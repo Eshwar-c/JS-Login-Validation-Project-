@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup Page</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="signup_form">
+    <form id="form" action="submit_form.php" method="POST" >
+      <h1 id="Sign">Sign Up Form</h1>
+      <div>
+        <label for="email">Email</label>
+        <input id="email" type="email" required>
+      </div>
+      <div>
+        <label for="name">Name</label>
+        <input id="name" type="text" required>
+      </div>
+      <div>
+        <label for="dob">DOB</label>
+        <input id="dob" type="date" required>
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input id="password" type="password" required>
+      </div>
+      <div>
+        <label for="repeated_password">Repeat Password</label>
+        <input id="repeated_password"  type="password" required>
+      </div>
+      <div id="btn-container">
+        <button type="submit" id="btn-1">Sign Up</button>
+        <button type="button" id="btn-2" onclick="window.location.href='login.html'">Login Page</button>
+      </div>
+    </form>
+  </div>
+</body>
+<script src="script .js"></script>
+</html>
